@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  scraper:
+    build: .
+    image: witsi-inpres
+    command: scrapy runspider inpres.py
+    volumes:
+      - ./:/app

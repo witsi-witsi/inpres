@@ -1,0 +1,5 @@
+Scrapy>=2.3.0
+scrapy-splash>=0.7.2
+beautifulsoup4>=4.9.1
+pandas>=1.1.1
+pydantic>=1.6.1
